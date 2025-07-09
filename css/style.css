@@ -161,3 +161,59 @@ main section {
 .skill-desc {
 
 }
+
+
+/* resume */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-column {
+
+}
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience {
+    
+}
+.exp-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.exp-sub-title {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.exp-desc {
+    font-size: 16px;
+    color: #757575;
+}
+.resume hr {
+    margin: 30px 0;
+}
+.btn-cv {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* footer */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+}
